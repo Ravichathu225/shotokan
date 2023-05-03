@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+  <!-- addcss -->
+  <link rel="icon" type="image/x-icon" href="icon/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  
+  <div class="contact1">
+    <h1>Contact Us</h1>
+  </div>
+  <div class="container">
+    <form action="php/conta.php" id="myForm" class="form-contact" method="post">
+      <input type="text" class="form-contact-input" name="name" placeholder="Name" required />
+      <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
+      <input type="tel" class="form-contact-input" name="tel" placeholder="Phone No" />
+      <textarea class="form-contact-textarea" name="message" placeholder="Type Message" required></textarea>
+      <button type="submit" id="submit" name="submit" class="form-contact-button">send</button>
+    </form>
+  </div>
+  
+  <div class="contact">
+    <div class="contactinfo">
+      <div class="box">
+        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+        <div class="text">
+          <h3>Address</h3>
+          <p>20/B, <br>katuwalamulla, ganemulla, <br> sri lanka. </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+        <div class="text">
+          <h3>Phone</h3>
+          <p>+94 77 696 4742 </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+        <div class="text">
+          <h3>Email</h3>
+          <p>amwlmkumara.kumara@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="wrapper">
+    <div class="facebook"><a href="https://web.facebook.com/mahesh.amwl" target="_blank"><i class='fa fa-facebook' style='color: blue'></i></a></div>
+    <div class="whatsapp"><a href="https://wa.me/94776964742"><i class='fa fa-whatsapp' style='color:#39f35f'></i></a></div>
+  </div>
+  
+  </div>
+  
+  <script type="text/javascript">
+    if (window.history.replaceState) {
+      window.history.replaceState(null, null, window.location.href);
+    }
+  </script>
+  
+  <footer>
+    © 2023 All Rights Reserved by F.T.M.A.Shotokan Karate Sport Training Center</a>
+  </footer>
+
+</body>
+
+</html>

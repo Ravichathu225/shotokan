@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.class{
+  position: relative;
+  padding: 5% 10%;
+  height: 100%;
+  /* background-image: url(https://i.pinimg.com/564x/80/11/1e/80111eb256f31c16b93fd20ef775ecc0.jpg); */
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  background-color: rgb(49, 49, 49);
+}
+header{
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.detail p{
+  font-size: 25px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 5%;
+  margin-left: 5px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.class .class-detail .day h3{
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  padding: 3%;
+}
+.week1{
+  background-color:transparent;
+  height: 130px;
+  width: 35%;
+  padding: 3%;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(15px);
+  margin-top: 3%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.521);
+}
+.week1 h4{
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.week1 p{
+  font-size: 18px;
+  color: #fff;
+  margin-top: 3%;
+}
+
+
+/* media quary */
+@media(max-width:990px){
+  .class{
+    height: 100%;
+  }
+  header{
+    font-size: 25px;
+  }
+  .detail p{
+    font-size: 20px;
+  }
+  .class .class-detail .day h3{
+    font-size: 18px;
+  }
+  .week1 h4{
+    font-size: 15px;
+  }
+  .week1 p{
+    font-size: 12px;
+  }
+  .week1{
+    width: 90%;
+  }
+  .flex{
+    display: block;
+  }
+}
